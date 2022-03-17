@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>Main Page</title>
+    </head>
+    <body>
+        <div calss = "container" style="height:100px;background-color: bisque;">
+            <div class = "row">
+                <h2 style="text-align: center;"><b><i>✨✨WELCOME TO DO LIST✨✨</i></b></h2>
+            </div>
+        </div>
+        <div calss = "container" style="height:450px;background-color:darkorchid;" >
+            <div class = "row">
+                <p style="text-align: center;">
+                    <br/>
+                    <b style="font-size: larger;font-family: cursive;">
+                        <i>
+                        I’M YOUR  TASK MANAGER. I’M HERE TO HELP YOU IN ORGANISING YOUR DAY TO DAY WORK IN MORE EFFICIENT WAY
+                        <br>
+                        🎀🤖PLease kindly login to continue🤖🎀
+                        </i>
+                    </b>
+                    <br/>
+                </p>
+            </div>
+            <br>
+            <br>
+            <div class = "clearfix visible-xs"></div>
+            <div class="row"">
+                <div class = "col-xs-6 col-md-offset-4" style = "background-color:burlywood;border-radius: 20px;height: 200px;width:500px">
+                    <form action="http://localhost:5000/authenticate" method="post">
+                        <table align="center">
+                            <br>
+                            <br>
+                            <br>
+                            <tr><td><i>Name</i></td><td><input type="text" name="name"></td></tr>  
+                            <tr><td><i>Email</i></td><td><input type = 'email' name = 'email'></td></tr> 
+                            <tr><td><i>Password</i></td><td><input type = 'password' name = 'pass'></td></tr>  
+                            <tr><td colspan="1" align="center"></td><td><button type = "submit" class = "btn btn-success">Submit</button></td></tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div calss = "container" style="height:50px;">
+            <h3 style="text-align:center;font-size: small;"><b><i</b>Copy Rights : WileyGroup6@2022</h3>
+        </div>
+
+    </body>
+</html>
